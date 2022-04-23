@@ -1,0 +1,37 @@
+/*Mobie & Tablet*/
+@media (max-width: 1024px){
+
+    .hide-on-mobile-tablet{
+        display: none;
+    }
+
+    .content-most-viewer__main--right__price-new{
+        font-size: 14px;
+    }
+
+    .nav-mobie{
+        display: flex;
+        justify-content: center;
+    }
+
+}
+
+/*Tablet*/
+@media  (min-width: 740px) and (max-width: 1024px) {
+    
+    .hide-on-tablet{
+        display: none;
+    }
+
+    
+}
+
+/*Mobie*/
+@media (max-width: 739px){
+    
+    .hide-on-mobile{
+        display: none;
+    }
+
+    
+}
